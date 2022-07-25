@@ -1,0 +1,179 @@
+/***************************tag css**********************************/
+
+body{
+  font-family: "Montserrat";
+}
+h1{
+  color: #fff;
+  font-family: "Montserrat-Black", "sans-serif";
+  line-height: 1.5;
+font-size: 3.5rem;
+font-weight:600;
+
+}
+h2{
+  font-family: "Montserrat-Black" , "sans-serif";
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat-Black" , "sans-serif";
+  font-weight: 600;
+}
+p{
+
+color: #8f8f8f;
+}
+i{
+  margin-right: 15px;
+}
+/******************************************class Css**********************/
+
+
+
+
+.container-fluid{
+padding: 3% 15% 7%;
+
+}
+
+
+
+.btn-outline-light{
+  margin-left: 15px;
+}
+
+
+/******************navbar *************************/
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+ .navbar{
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 5rem;
+ }
+.nav-item{
+
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* title images*/
+
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+ padding-left: 100px;
+position: absolute;
+right: 30%;
+}
+
+.features-box{
+text-align: center;
+padding: 5%;
+}
+
+
+.icon{
+
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.carousel-inner{
+  padding: 7% 15%;
+}
+.testimonial-image{
+border-radius: 100%;
+width: 10%;
+margin: 20px;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.cta-heading{
+  font-size: 3.5rem;
+  font-family: "Montserrat-Black" , "sans-serif";
+line-height: 1.5
+
+}
+/*****************************ID css*************************/
+
+#title{
+  background-color: #ff4c68;
+}
+#features{
+  padding: 7% 15%;
+background-color: #ffff;
+
+position: relative;
+}
+
+
+
+/****************Testimonials********************************/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+#testimonials
+{
+
+
+  text-align:center;
+  background-color:#ef8172;
+  color: #ffff;
+
+}
+
+#pricing{
+  text-align: center;
+  margin: 7% 15%;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+
+
+/****************** CTA  ********************/
+#cta{
+background-color: #ff4c68;
+color: #ffff;
+padding: 7% 15%;
+text-align: center;
+    }
+
+
+
+@media (max-width:1028px){
+
+#title{
+  text-align: center;
+}
+  .title-image{
+
+    position: static;
+    transform: rotate(0);
+  }
+}
